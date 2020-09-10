@@ -1,8 +1,6 @@
-
 server:
   port: 8092
-
-spring: 
+spring:
   h2:
     console:
       enabled: true
@@ -13,8 +11,7 @@ spring:
     platform: h2
     username: sa
     password: 
-
-  jpa:
+jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
@@ -27,7 +24,7 @@ spring:
 logging:
   pattern:
     console: "%d{yyyy-mm-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
-    eureka:
+eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
