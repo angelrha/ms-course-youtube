@@ -31,8 +31,8 @@ eureka:
 Feign:
   hystrix:
     enabled:true
-mangement:
-  endpoint:
+management:
+  endpoints:
     web:
       exposure:
       include:"*"
